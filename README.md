@@ -8,38 +8,19 @@ The propose of this code is to create a text/code editor using PWA criteria that
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
+
 - [Usage](#usage)
-- [Credits](#credits)
 
-## Installation
+## Tech Stack
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Javascript
+Webpack 
+IndexedDB
+Node.js
+Express 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Open the deployed application in Render. From there, any code or text that is entered will save automatically. When the page is refreshed, the text will be saved in IndexedDB. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
-## Features
-
-If your project has a lot of features, list them here.
-
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+When application is deployed, there is a button in the left top corner. When click, the app will install a PWA onto the device being used. 
